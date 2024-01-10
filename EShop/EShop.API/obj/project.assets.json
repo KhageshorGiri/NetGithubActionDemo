@@ -88,6 +88,42 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "EShop.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EShop.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EShop.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EShop.Application.dll": {}
+        }
+      },
+      "EShop.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/EShop.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EShop.Domain.dll": {}
+        }
+      },
+      "EShop.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EShop.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EShop.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EShop.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -429,10 +465,27 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "EShop.Application/1.0.0": {
+      "type": "project",
+      "path": "../EShop.Application/EShop.Application.csproj",
+      "msbuildProject": "../EShop.Application/EShop.Application.csproj"
+    },
+    "EShop.Domain/1.0.0": {
+      "type": "project",
+      "path": "../EShop.Domain/EShop.Domain.csproj",
+      "msbuildProject": "../EShop.Domain/EShop.Domain.csproj"
+    },
+    "EShop.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../EShop.Infrastructure/EShop.Infrastructure.csproj",
+      "msbuildProject": "../EShop.Infrastructure/EShop.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "EShop.Application >= 1.0.0",
+      "EShop.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -466,7 +519,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Application\\EShop.Application.csproj": {
+              "projectPath": "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Application\\EShop.Application.csproj"
+            },
+            "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Infrastructure\\EShop.Infrastructure.csproj": {
+              "projectPath": "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Infrastructure\\EShop.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -30,7 +30,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Application\\EShop.Application.csproj": {
+                "projectPath": "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Application\\EShop.Application.csproj"
+              },
+              "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Infrastructure\\EShop.Infrastructure.csproj": {
+                "projectPath": "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Infrastructure\\EShop.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -63,6 +70,188 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Application\\EShop.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Application\\EShop.Application.csproj",
+        "projectName": "EShop.Application",
+        "projectPath": "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Application\\EShop.Application.csproj",
+        "packagesPath": "C:\\Users\\asndp\\.nuget\\packages\\",
+        "outputPath": "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asndp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Domain\\EShop.Domain.csproj": {
+                "projectPath": "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Domain\\EShop.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Domain\\EShop.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Domain\\EShop.Domain.csproj",
+        "projectName": "EShop.Domain",
+        "projectPath": "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Domain\\EShop.Domain.csproj",
+        "packagesPath": "C:\\Users\\asndp\\.nuget\\packages\\",
+        "outputPath": "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asndp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Infrastructure\\EShop.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Infrastructure\\EShop.Infrastructure.csproj",
+        "projectName": "EShop.Infrastructure",
+        "projectPath": "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Infrastructure\\EShop.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\asndp\\.nuget\\packages\\",
+        "outputPath": "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asndp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Domain\\EShop.Domain.csproj": {
+                "projectPath": "E:\\Binod\\deleteMe\\NetGithubActionDemo\\EShop\\EShop.Domain\\EShop.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
