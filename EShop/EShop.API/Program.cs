@@ -1,7 +1,4 @@
-using EShop.Application.Interfaces;
-using EShop.Application.Services;
-using EShop.Domain.IRepositories;
-using EShop.Infrastructure.Repositories;
+using EShop.API.Configurtion;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,8 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IProduct, ProductService>();
-builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddServicesDependecy();
 
 var app = builder.Build();
 
