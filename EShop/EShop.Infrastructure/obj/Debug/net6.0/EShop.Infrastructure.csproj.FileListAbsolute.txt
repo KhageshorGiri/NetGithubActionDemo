@@ -1,0 +1,15 @@
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\bin\Debug\net6.0\EShop.Infrastructure.deps.json
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\bin\Debug\net6.0\EShop.Infrastructure.dll
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\bin\Debug\net6.0\EShop.Infrastructure.pdb
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\bin\Debug\net6.0\EShop.Domain.dll
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\bin\Debug\net6.0\EShop.Domain.pdb
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\obj\Debug\net6.0\EShop.Infrastructure.csproj.AssemblyReference.cache
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\obj\Debug\net6.0\EShop.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\obj\Debug\net6.0\EShop.Infrastructure.AssemblyInfoInputs.cache
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\obj\Debug\net6.0\EShop.Infrastructure.AssemblyInfo.cs
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\obj\Debug\net6.0\EShop.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\obj\Debug\net6.0\EShop.Infrastructure.csproj.CopyComplete
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\obj\Debug\net6.0\EShop.Infrastructure.dll
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\obj\Debug\net6.0\refint\EShop.Infrastructure.dll
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\obj\Debug\net6.0\EShop.Infrastructure.pdb
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\obj\Debug\net6.0\ref\EShop.Infrastructure.dll
