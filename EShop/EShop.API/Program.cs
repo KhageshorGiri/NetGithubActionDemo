@@ -1,4 +1,5 @@
 using EShop.API.Configurtion;
+using EShop.API.Middlewares;
 using EShop.API.Options;
 using EShop.Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
@@ -46,6 +47,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddServicesDependecy();
 
 var app = builder.Build();
+
+app.UseMiddleware<GlobalExceptionHabdelerMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

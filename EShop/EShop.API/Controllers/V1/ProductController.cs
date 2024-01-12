@@ -13,7 +13,7 @@ namespace EShop.API.Controllers.V1
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "v1", "v1" };
+            throw new NotImplementedException();
         }
 
         // GET api/<ProductController>/5
