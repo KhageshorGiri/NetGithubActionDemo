@@ -1,10 +1,10 @@
 using EShop.API.Configurtion;
 using EShop.API.Options;
+using EShop.Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.AspNetCore.Mvc.Versioning;
-using Microsoft.Extensions.Options;
-using Swashbuckle.AspNetCore.SwaggerGen;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +30,12 @@ builder.Services.AddVersionedApiExplorer(options =>
 builder.Services.ConfigureOptions<ConfigureSwaggerGenOption>();
 builder.Services.AddSwaggerGen();
 
+
+// Adding db configuration
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServerConnection"));
+});
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

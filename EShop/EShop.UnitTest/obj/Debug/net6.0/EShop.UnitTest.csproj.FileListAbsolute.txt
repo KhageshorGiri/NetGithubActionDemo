@@ -1,0 +1,11 @@
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.UnitTest\bin\Debug\net6.0\EShop.UnitTest.deps.json
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.UnitTest\bin\Debug\net6.0\EShop.UnitTest.dll
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.UnitTest\bin\Debug\net6.0\EShop.UnitTest.pdb
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.UnitTest\obj\Debug\net6.0\EShop.UnitTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.UnitTest\obj\Debug\net6.0\EShop.UnitTest.AssemblyInfoInputs.cache
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.UnitTest\obj\Debug\net6.0\EShop.UnitTest.AssemblyInfo.cs
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.UnitTest\obj\Debug\net6.0\EShop.UnitTest.csproj.CoreCompileInputs.cache
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.UnitTest\obj\Debug\net6.0\EShop.UnitTest.dll
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.UnitTest\obj\Debug\net6.0\refint\EShop.UnitTest.dll
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.UnitTest\obj\Debug\net6.0\EShop.UnitTest.pdb
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.UnitTest\obj\Debug\net6.0\ref\EShop.UnitTest.dll

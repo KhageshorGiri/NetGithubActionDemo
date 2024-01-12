@@ -1,4 +1,5 @@
 E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\bin\Debug\net6.0\EShop.Infrastructure.deps.json
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\bin\Debug\net6.0\EShop.Infrastructure.runtimeconfig.json
 E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\bin\Debug\net6.0\EShop.Infrastructure.dll
 E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\bin\Debug\net6.0\EShop.Infrastructure.pdb
 E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\bin\Debug\net6.0\EShop.Domain.dll
@@ -12,4 +13,5 @@ E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\obj\Debug\net6.
 E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\obj\Debug\net6.0\EShop.Infrastructure.dll
 E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\obj\Debug\net6.0\refint\EShop.Infrastructure.dll
 E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\obj\Debug\net6.0\EShop.Infrastructure.pdb
+E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\obj\Debug\net6.0\EShop.Infrastructure.genruntimeconfig.cache
 E:\Binod\deleteMe\NetGithubActionDemo\EShop\EShop.Infrastructure\obj\Debug\net6.0\ref\EShop.Infrastructure.dll
