@@ -1,0 +1,21 @@
+
+name : Continuous Integration and Continuous Deployment
+
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code 🐱‍🏍
+        uses: actions/checkout@v4
+
+      - name: Setup Dot Net 🚀
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '6.0.x'
+
+      
